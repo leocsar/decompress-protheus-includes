@@ -12,4 +12,4 @@ newFile = open(sys.argv[2], 'a')
 newFile.write(inflated[:-1].decode('utf-8', errors='ignore'))
 newFile.close()
 
-# print(inflated[:-1].decode('utf-8', errors='ignore'))
+print(inflated[:-1].decode('utf-8', errors='ignore'))
